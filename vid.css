@@ -101,3 +101,13 @@ display: none !important;
     /* width: 80%;
     height: 40%; */
 }
+
+@media (max-width: 768px) {
+    .container1{
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto;
+    }
+    .videos{
+        order: -1;
+    }
+}
