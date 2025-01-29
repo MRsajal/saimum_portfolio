@@ -110,4 +110,13 @@ display: none !important;
     .videos{
         order: -1;
     }
+    .videos video{
+        position: relative;
+        height: 70%;
+    }
+    .container1 ul{
+        position: relative;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
 }
